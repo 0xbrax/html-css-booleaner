@@ -40,3 +40,17 @@ h1 {
 ul {
     padding-left: 15px;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tablesize {
+    width: 25%;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
