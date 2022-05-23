@@ -54,3 +54,7 @@ thead {
     background-color: blue;
     color: white;
 }
+
+.even {
+    background-color: aqua;
+}
