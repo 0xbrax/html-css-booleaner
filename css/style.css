@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     width: 100%;
     height: 100px;
-    background-color: aqua;
-    background-image: url('../img/pattern.png');
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
     background-size: 400px;
 }
 
@@ -18,11 +22,15 @@ h1 {
 }
 
 .color1 {
-    color: rgb(202, 202, 202);
+    color: rgb(156, 156, 156);
 }
 
 .color2 {
-    color: rgb(0, 183, 183);
+    color: #4EA0FF;
+}
+
+.color3 {
+    color: white;
 }
 
 .special1 {
@@ -51,10 +59,37 @@ table{
 }
 
 thead {
-    background-color: blue;
-    color: white;
+    background-color: #4EA0FF;
 }
 
 .even {
-    background-color: aqua;
+    background-color: #B1E5F2;
+}
+
+.odd {
+    /* colore tabella righe dispari */
+}
+
+#foto1 {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-image: url(../img/monitor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto2 {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-image: url(../img/graph.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    margin-top: 0;
 }
