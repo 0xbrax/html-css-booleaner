@@ -10,6 +10,11 @@ header {
     background-size: 400px;
 }
 
+.layout {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 #logo {
     width: 220px;
     margin-top: 40px;
